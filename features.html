@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Features</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/features.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="./index.html"
+          ><img src="./img/logo.svg" alt="" /> <span>Veltrix</span></a
+        >
+      </div>
+      <!-- Nav -->
+      <nav class="header_nav">
+        <a href="./features.html">Features</a>
+        <a href="./usecase.html">Use Cases</a>
+
+        <div class="plans_row">
+          <a href="./plans.html" class="nav_plans">Plans</a>
+          <a href="./plans.html" class="nav_sub_link">Start Free</a>
+          <a href="#" class="nav_sub_link">Login</a>
+        </div>
+
+        <a href="./about.html">Company</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+
+      <div class="right_nav">
+        <a href="#">Login</a>
+        <a href="./plans.html"> Start Free </a>
+
+        <a href="#" class="menu_img">
+          <img src="./img/menu.svg" alt="메뉴 열기" />
+        </a>
+
+        <div class="lang_container">
+          <a href="#" class="lang_btn">
+            <img src="./img/lang.svg" alt="Language Select" />
+          </a>
+          <ul class="lang_menu">
+            <li><a href="#" data-lang="en">English</a></li>
+            <li><a href="#" data-lang="ko">한국어</a></li>
+            <li><a href="#" data-lang="ja">日本語</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      
+  <!-- CTA -->
+     <section class="cta_section" id="contact">
+  <div class="section_inner cta_inner">
+    <h2 data-i18n="cta_main_title">From Data Collection to Automation,<br>All Core Features at a Glance</h2>
+    <p data-i18n="cta_main_desc">Explore the core infrastructure built to automate, unify, and scale your customer data stack.</p>
+    <div class="cta_btns">
+      <a href="./plans.html" class="btn_primary" data-i18n="btn_trial">Start Free Trial</a>
+      <a href="./contact.html" class="btn_outline" data-i18n="btn_contact">Contact Sales</a>
+    </div>
+  </div>
+</section>
+
+<section class="features_section" id="usecases">
+  <div class="section_inner">
+    <h2 class="section_title" data-i18n="feat_main_title">Designed for the Modern Data Stack</h2>
+    <p class="section_desc" data-i18n="feat_main_desc">The intelligence you need, delivered through a platform that scales with your growth without the complexity of legacy tools.</p>
+    <div class="features_grid">
+      <div class="feature_card">
+        <img src="./img/al_icon.png" alt="AI Analytics" />
+        <h3 data-i18n="f1_title">AI Analytics</h3>
+        <p data-i18n="f1_desc">Automatically detect anomalies and trends in your customer data with predictive machine learning models.</p>
+      </div>
+      <div class="feature_card">
+        <img src="./img/smart_icon.png" alt="Smart Automation" />
+        <h3 data-i18n="f2_title">Smart Automation</h3>
+        <p data-i18n="f2_desc">Trigger sophisticated workflows across your CRM, marketing stack, and internal tools based on live events.</p>
+      </div>
+      <div class="feature_card">
+        <img src="./img/datalake_icon.png" alt="Unified Data Lake" />
+        <h3 data-i18n="f3_title">Unified Data Lake</h3>
+        <p data-i18n="f3_desc">Connect all your data sources in minutes with 50+ native integrations and a powerful SQL interface.</p>
+      </div>
+      <div class="feature_card">
+        <img src="./img/secu_icon.png" alt="Enterprise Security" />
+        <h3 data-i18n="f4_title">Enterprise Security</h3>
+        <p data-i18n="f4_desc">Bank-grade encryption, SOC2 compliance, and granular permission controls for teams of any size.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="fw_section">
+  <div class="fw">
+    <div class="fw_row">
+      <div class="fw_img"> <img src="./img/features1.jpeg" alt=""> </div>
+      <div class="fw_txt">
+        <span class="fw_label" data-i18n="fw1_label">Smart Automation</span>
+        <h3 class="fw_title" data-i18n="fw1_title">Streamline Complex Workflows</h3>
+        <p class="fw_desc" data-i18n="fw1_desc">Escape manual data processing. Veltrix's intelligent routing and transformation engine ensures your customer data flows seamlessly to where it's needed in real-time.</p>
+        <ul class="fw_list">
+          <li data-i18n="fw1_l1">Smart Pipeline Builder</li>
+          <li data-i18n="fw1_l2">Auto Data Transformation</li>
+          <li data-i18n="fw1_l3">Real-time Error Monitoring</li>
+        </ul>
+      </div>
+    </div>
+    <div class="fw_row">
+      <div class="fw_txt">
+        <span class="fw_label" data-i18n="fw2_label">Unified Data Lake</span>
+        <h3 class="fw_title" data-i18n="fw2_title">All Customer Data in One Place</h3>
+        <p class="fw_desc" data-i18n="fw2_desc">Break down silos and create a single source of truth. Veltrix structures, organizes, and normalizes data from every touchpoint for a comprehensive 360-degree view.</p>
+        <ul class="fw_list">
+          <li data-i18n="fw2_l1">Auto Schema Inference</li>
+          <li data-i18n="fw2_l2">Data Governance Control</li>
+          <li data-i18n="fw2_l3">Unlimited Scalability</li>
+        </ul>
+      </div>
+      <div class="fw_img"><img src="./img/features2.png" alt=""> </div>
+    </div>
+    <div class="fw_row">
+      <div class="fw_img"><img src="./img/features3.png" alt=""> </div>
+      <div class="fw_txt">
+        <span class="fw_label" data-i18n="fw3_label">Real-time Analytics</span>
+        <h3 class="fw_title" data-i18n="fw3_title">Derive Insights as They Happen</h3>
+        <p class="fw_desc" data-i18n="fw3_desc">Don't wait for data to process. Veltrix's streaming architecture provides sub-millisecond analysis so you can react to customer behavior instantly.</p>
+        <ul class="fw_list">
+          <li data-i18n="fw3_l1">Millisecond-level Streaming</li>
+          <li data-i18n="fw3_l2">Custom Dashboards</li>
+          <li data-i18n="fw3_l3">Anomaly Detection Alerts</li>
+        </ul>
+      </div>
+    </div>
+    <div class="fw_row">
+      <div class="fw_txt">
+        <span class="fw_label" data-i18n="fw4_label">Enterprise Security</span>
+        <h3 class="fw_title" data-i18n="fw4_title">Uncompromising Data Protection</h3>
+        <p class="fw_desc" data-i18n="fw4_desc">Protect your data with robust access controls, encryption, and compliance tools. Built to satisfy SOC2, GDPR, and HIPAA requirements from the start.</p>
+        <ul class="fw_list">
+          <li data-i18n="fw4_l1">End-to-End Encryption</li>
+          <li data-i18n="fw4_l2">Granular RBAC</li>
+          <li data-i18n="fw4_l3">Comprehensive Audit Logs</li>
+        </ul>
+      </div>
+      <div class="fw_img"><img src="./img/features4.jpeg" alt=""> </div>
+    </div>
+</section>
+    
+        <button
+          class="top_btn"
+          onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+        >
+          TOP
+        </button>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer_inner">
+        <div class="footer_logo">
+          <img src="./img/logo.svg" alt="logo" />
+          <span>Veltrix</span>
+        </div>
+         <nav class="footer_nav">
+          <a href="./features.html">Features</a>
+          <a href="./usecase.html">Use Cases</a>
+          <div class="footer_nav_col">
+            <a href="./plans.html">Plans</a>
+            <a href="#">Login</a>
+            <a href="#">Start Free</a>
+          </div>
+          <a href="./about.html">Company</a>
+          <a href="./contact.html">Contact</a>
+        </nav>
+        <div class="lang_container">
+          <a href="#" class="lang_btn">
+            <img
+              src="./img/lang.svg"
+              alt="Language Select"
+              class="globe_icon"
+            />
+          </a>
+          <ul class="lang_menu">
+            <li><a href="#" data-lang="en">English</a></li>
+            <li><a href="#" data-lang="ko">한국어</a></li>
+            <li><a href="#" data-lang="ja">日本語</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer_copy">© 2026 Veltrix.All rights reserved.</p>
+    </footer>
+    <script src="./js/common.js"></script>
+    <script src="./js/features.js"></script>
+  </body>
+</html>

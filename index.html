@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veltrix</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="./index.html"
+          ><img src="./img/logo.svg" alt="" /> <span>Veltrix</span></a
+        >
+      </div>
+      <!-- Nav -->
+      <nav class="header_nav">
+        <a href="./features.html">Features</a>
+        <a href="./usecase.html">Use Cases</a>
+
+        <div class="plans_row">
+          <a href="./plans.html" class="nav_plans">Plans</a>
+          <a href="./plans.html" class="nav_sub_link">Start Free</a>
+          <a href="#" class="nav_sub_link">Login</a>
+        </div>
+
+        <a href="./about.html">Company</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+
+      <div class="right_nav">
+        <a href="#">Login</a>
+        <a href="./plans.html"> Start Free </a>
+
+        <a href="#" class="menu_img">
+          <img src="./img/menu.svg" alt="메뉴 열기" />
+        </a>
+
+        <div class="lang_container">
+          <a href="#" class="lang_btn">
+            <img src="./img/lang.svg" alt="Language Select" />
+          </a>
+          <ul class="lang_menu">
+            <li><a href="#" data-lang="en">English</a></li>
+            <li><a href="#" data-lang="ko">한국어</a></li>
+            <li><a href="#" data-lang="ja">日本語</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- HERO -->
+      <section class="hero" id="features">
+        <div class="hero_inner">
+          <h1 class="hero_title">Veltrix</h1>
+          <h2 class="hero_sub" data-i18n="heroSub">
+            Data Analytics & Tech Solution
+          </h2>
+          <p class="hero_desc" data-i18n="heroDesc">
+            Leave difficult data analytics and complex tech to Veltrix. <br />
+            We solve complex processes and problems to maximize your
+            efficiency.<br />
+            Grow your business faster and more confidently with Veltrix today.
+          </p>
+          <div class="hero_btns">
+            <a href="#" class="btn_primary">Start Free Trial</a>
+            <a href="./plans.html" class="btn_outline">View Plans</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES -->
+      <section class="features_section" id="usecases">
+        <div class="section_inner">
+          <h2 class="section_title" data-i18n="featureTitle">
+            Designed for the Modern Data Stack
+          </h2>
+          <p class="section_desc" data-i18n="featureDesc">
+            The intelligence you need, delivered through a platform that scales
+            with your growth without the complexity of legacy tools.
+          </p>
+          <div class="features_grid">
+            <div class="feature_card">
+              <img src="./img/al_icon.png" alt="AI Analytics" />
+              <h3 data-i18n="aiTitle">AI Analytics</h3>
+              <p data-i18n="aiDesc">
+                Automatically detect anomalies and trends in your customer data
+                with predictive machine learning models.
+              </p>
+            </div>
+            <div class="feature_card">
+              <img src="./img/smart_icon.png" alt="Smart Automation" />
+              <h3 data-i18n="smartTitle">Smart Automation</h3>
+              <p data-i18n="smartDesc">
+                Trigger sophisticated workflows across your CRM, marketing
+                stack, and internal tools based on live events.
+              </p>
+            </div>
+            <div class="feature_card">
+              <img src="./img/datalake_icon.png" alt="Unified Data Lake" />
+              <h3 data-i18n="lakeTitle">Unified Data Lake</h3>
+              <p data-i18n="lakeDesc">
+                Connect all your data sources in minutes with 50+ native
+                integrations and a powerful SQL interface.
+              </p>
+            </div>
+            <div class="feature_card">
+              <img src="./img/secu_icon.png" alt="Enterprise Security" />
+              <h3 data-i18n="securityTitle">Enterprise Security</h3>
+              <p data-i18n="securityDesc">
+                Bank-grade encryption, SOC2 compliance, and granular permission
+                controls for teams of any size.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- STATS -->
+      <section class="stats_section">
+        <div class="section_inner stats_grid">
+          <div class="stat_item">
+            <span class="stat_num">+35%</span>
+            <strong data-i18n="stat_conversion_title">Conversion Lift</strong>
+            <p data-i18n="stat_conversion_desc">
+              Average increase in funnel efficiency <br />after 90 days of
+              implementation.
+            </p>
+          </div>
+
+          <div class="stat_item">
+            <span class="stat_num">-22h</span>
+            <strong data-i18n="stat_saved_title">Saved Weekly</strong>
+            <p data-i18n="stat_saved_desc">
+              Automate your workflow and <br />
+              reclaim 22 hours every week.
+            </p>
+          </div>
+
+          <div class="stat_item">
+            <span class="stat_num">12x</span>
+            <strong data-i18n="stat_roi_title">ROI within 1yr</strong>
+            <p data-i18n="stat_roi_desc">
+              Verifiable return on investment <br />
+              based on customer success audits.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- PARTNERS -->
+      <section class="partners_section" id="company">
+        <div class="section_inner">
+          <h2 class="section_title" data-i18n="partners_title">
+            Companies We Work With
+          </h2>
+          <div class="partners_grid">
+            <img src="./img/companies1.svg" alt="" />
+            <img src="./img/companies2.svg" alt="" />
+            <img src="./img/companies3.svg" alt="" />
+            <img src="./img/companies4.svg" alt="" />
+            <img src="./img/companies5.svg" alt="" />
+            <img src="./img/companies6.svg" alt="" />
+            <img src="./img/companies7.svg" alt="" />
+            <img src="./img/companies8.svg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- PLANS -->
+      <section class="plans_section" id="plans">
+        <div class="section_inner">
+          <h2 class="section_title" data-i18n="plansTitle">
+            Plans that scale with you
+          </h2>
+          <p class="section_desc" data-i18n="plansDesc">
+            Choose the perfect plan for your business
+          </p>
+          <div class="plans_grid">
+            <div class="plan_card">
+              <p class="plan_name">Starter</p>
+              <p class="plan_price">
+                <span>$49</span><small data-i18n="per_month">/mo</small>
+              </p>
+              <ul class="plan_features">
+                <li>
+                  <img src="./img/check.svg" alt="check" /><span
+                    data-i18n="starter_events"
+                    >10,000 Monthly Events</span
+                  >
+                </li>
+                <li>
+                  <img src="./img/check.svg" alt="check" /><span
+                    data-i18n="basic_dashboards"
+                    >Basic Dashboards</span
+                  >
+                </li>
+                <li>
+                  <img src="./img/check.svg" alt="check" /><span
+                    data-i18n="core_integrations"
+                    >Core Integrations</span
+                  >
+                </li>
+                <li>
+                  <img src="./img/check.svg" alt="check" /><span
+                    data-i18n="email_support"
+                    >Email Support</span
+                  >
+                </li>
+              </ul>
+              <a href="#" class="btn_plan" data-i18n="get_started"
+                >Get Started</a
+              >
+            </div>
+
+            <div class="plan_card plan_card--featured">
+              <p class="plan_name" data-i18n="growth_title">Growth</p>
+              <p class="plan_price">
+                <span>$499</span><small data-i18n="per_month">/mo</small>
+              </p>
+              <ul class="plan_features">
+                <li>
+                  <img src="./img/check.svg" alt="check" /><span
+                    data-i18n="growth_events"
+                    >20,000 Monthly Events</span
+                  >
+                </li>
+                <li>
+                  <img src="./img/check.svg" alt="check" /><span
+                    data-i18n="ai_insights"
+                    >AI Predictive Insights</span
+                  >
+                </li>
+                <li>
+                  <img src="./img/check.svg" alt="check" /><span
+                    data-i18n="advanced_workflows"
+                    >Advanced Multi-step Workflows</span
+                  >
+                </li>
+                <li>
+                  <img src="./img/check.svg" alt="check" /><span
+                    data-i18n="unlimited_integrations"
+                    >Unlimited Integrations</span
+                  >
+                </li>
+                <li>
+                  <img src="./img/check.svg" alt="check" /><span
+                    data-i18n="priority_support"
+                    >Priority Chat Support</span
+                  >
+                </li>
+              </ul>
+              <a href="#" class="btn_plan" data-i18n="get_started"
+                >Get Started</a
+              >
+            </div>
+
+            <div class="plan_card">
+              <p class="plan_name" data-i18n="enterprise_title">Enterprise</p>
+              <p class="plan_price">
+                <span>$1,999</span><small data-i18n="per_month">/mo</small>
+              </p>
+              <ul class="plan_features">
+                <li>
+                  <img src="./img/check.svg" alt="check" /><span
+                    data-i18n="enterprise_events"
+                    >1,000,000 Monthly Events</span
+                  >
+                </li>
+                <li>
+                  <img src="./img/check.svg" alt="check" /><span
+                    data-i18n="enterprise_security"
+                    >Enterprise Security</span
+                  >
+                </li>
+                <li>
+                  <img src="./img/check.svg" alt="check" /><span
+                    data-i18n="custom_pipelines"
+                    >Custom Data Pipelines</span
+                  >
+                </li>
+                <li>
+                  <img src="./img/check.svg" alt="check" /><span
+                    data-i18n="access_control"
+                    >Fine-grained Access Control</span
+                  >
+                </li>
+                <li>
+                  <img src="./img/check.svg" alt="check" /><span
+                    data-i18n="dedicated_manager"
+                    >Dedicated Success Manager</span
+                  >
+                </li>
+              </ul>
+              <a href="#" class="btn_plan" data-i18n="get_started"
+                >Get Started</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta_section cta_bg_img" id="contact">
+        <div class="section_inner cta_inner">
+          <h2 data-i18n="cta_title">Ready to grow faster?</h2>
+          <p data-i18n="cta_description">
+            Start with a 7-day free trial.<br />
+            Upgrade, downgrade, or cancel anytime after your free trial.
+          </p>
+          <div class="cta_btns">
+            <a href="#" class="btn_primary" data-i18n="btn_trial"
+              >Start Free Trial</a
+            >
+            <a href="#" class="btn_outline" data-i18n="btn_contact"
+              >Contact Sales</a
+            >
+          </div>
+        </div>
+      </section>
+      <button
+        class="top_btn"
+        onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+      >
+        TOP
+      </button>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer_inner">
+        <div class="footer_logo">
+          <img src="./img/logo.svg" alt="logo" />
+          <span>Veltrix</span>
+        </div>
+        <nav class="footer_nav">
+          <a href="./features.html">Features</a>
+          <a href="./usecase.html">Use Cases</a>
+          <div class="footer_nav_col">
+            <a href="./plans.html">Plans</a>
+            <a href="#">Login</a>
+            <a href="#">Start Free</a>
+          </div>
+          <a href="./about.html">Company</a>
+          <a href="./contact.html">Contact</a>
+        </nav>
+        <div class="lang_container">
+          <a href="#" class="lang_btn">
+            <img
+              src="./img/lang.svg"
+              alt="Language Select"
+              class="globe_icon"
+            />
+          </a>
+          <ul class="lang_menu">
+            <li><a href="#" data-lang="en">English</a></li>
+            <li><a href="#" data-lang="ko">한국어</a></li>
+            <li><a href="#" data-lang="ja">日本語</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer_copy">© 2026 Veltrix.All rights reserved.</p>
+    </footer>
+    <script src="./js/common.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
