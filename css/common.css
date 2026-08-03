@@ -29,7 +29,7 @@ body {
   --border: #e5e7eb;
   --card-border: #e9eaf0;
   --font-main: 'Sora', sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-body: 'Sora', sans-serif;
 }
 
 
@@ -219,6 +219,8 @@ header{
     aspect-ratio: 1 / 1;
     padding: 10px;
     cursor: pointer;
+    font-family: var(--font-body), sans-serif;
+
 }
 
 .top_btn.show {
